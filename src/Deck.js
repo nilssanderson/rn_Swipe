@@ -1,7 +1,11 @@
 
 
 import React, { Component } from 'react';
-import { View, Animated } from 'react-native';
+import {
+  View,
+  Animated,
+  PanResponder,
+} from 'react-native';
 import styles from './Styles/DeckStyles';
 
 
